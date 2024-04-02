@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+:root{
+    /*Navbar and home page colors*/
+    --gr:#1e1e1e;
+    --bl1:#1e1e1e;
+    --or:#aa272f;
+    --or2:#d9ac6d;
+    --wh1:#fff;
+    --star:gold;
+    --grisrgb: rgba(255,255,255,0.2);
+}
+
+
+body{
+    font-family: 'Spline Sans', sans-serif;
+    color: var(--gr);
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: var(--bl1);
+}
+
+a{
+    color: var(--bl1);
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+a:hover{
+    color: var(--or);
+}
+
+.logonav {
+    width: 85px !important;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.shadow-on-hover {
+    transition: all 0.3s;
+}
+
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.btn{
+    border-radius: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand{
+    background-color: var(--or);
+    color: var(--wh1);
+    font-weight: 500;
+    border-color: var(--or);
+    box-shadow: 0 1px 3px var(--or);
+}
+
+.btn-brand:hover{
+    background-color: var(--or2);
+    border-color: var(--or2);
+    color: var(--wh1);
+    box-shadow: 0 10px 40px var(--or2);
+    border-radius: 10px;
+    transition:ease 0.5s;
+}
+
+.bg-cover {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.title-hero{
+  padding: 1.5rem 0 1.5rem;
+  background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));
+  margin-top: 32rem;
+}
+/*SliderHero*/
+
+.slide-1{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../src/assets/Hero/banner.png);
+}
+.slide-2{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../src/assets/About/About3.png)
+   
+}
+.slide-3{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../src/assets/About/LACapitalAbout.png);
+}
+
+#heroSlider h6::after, #heroSlider h6::before{
+    content: "";
+    width: 40px;
+    height: 4px;
+    background-color: var(--wh1);
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: rgba(0,0,0,0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+
+}
+
+.logobanner{
+    max-width: 100%; /* ajusta el tamaño máximo de la imagen según tu preferencia */
+    max-height: 100vh; /* ajusta la altura máxima de la imagen según tu preferencia */
+    width: auto;
+    height: auto;
+}
+
+/*about*/
+#about p{
+    text-align: justify;
+}
+
+#about .divider1{
+    width: 30px;
+    height: 3px;
+    display: inline-block;
+    background-color: yellow;
+}
+#about .divider2{
+    width: 30px;
+    height: 3px;
+    display: block;
+    background-color: blue;
+}
+#about .divider3{
+    width: 30px;
+    height: 3px;
+    display: block;
+    background-color: red;
+}
+
+/*Intro Text*/
+
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+/*menu - productos*/
+
+#menu .nav-pills .nav-link {
+    background-color: var(--wh1);
+    margin-left: 8px;
+    margin-right: 8px;
+    color: var(--bl1);
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color: var(--or);
+    color: var(--wh1);
+}
+
+.menu-item {
+    cursor: pointer;
+}
+.menu-item .stars {
+    color: var(--star);
+
+}
+
+.menu-item .small{
+    text-align: justify;
+}
+
+.tagprice{
+    color: var(--or);
+}
+/*Features*/
+
+#features{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../src/assets/CapLogoRedondo.svg);
+}
+
+.feature{
+    border: 2px solid var(--grisrgb);
+}
+
+.feature .feature-icon{
+    width: 80px;
+    height: 80px;
+    background-color: var(--or);
+    color: var(--wh1);
+    font-size: 28px;
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+}
+
+/*Team*/
+
+.team-member img{
+    max-width: 140px;
+    box-shadow: -10px -10px 0 var(--or);
+    border-radius: 100px;
+}
+
+/*Reviews*/
+
+#reviews{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/cover3.jpg);
+}
+
+.review img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.review .quote-icon{
+    font-size: 74px;
+    color: var(--or);
+    line-height: 1;
+}
+
+.review .stars {
+    color: var(--or);
+}
+
+#reviews .carousel-indicators{
+    margin-bottom: -3rem;
+}
+
+/*reservation*/
+
+#reservation .form-control{
+    border-radius: 0;
+}
+#reservation .form-control:focus{
+    box-shadow: none;
+    border: var(--or);
+}
+
+#reservation input.form-control{
+    height: 47px;
+}
+
+/*Instagram Posts*/
+
+.insta-post{
+    position: relative;
+    overflow: hidden;
+}
+
+.insta-post  .insta-btn{
+    width: 90px;
+    height: 90px;
+    background-color: var(--wh1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 26px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.insta-post img{
+    transition: all 0.4s;
+}
+
+.insta-post:hover img{
+    transform: scale(1.2);
+}
+
+.insta-post:hover .insta-btn{
+    opacity: 1;
+}
+
+/*Blog Post*/
+
+.blog-post{
+    cursor: pointer;
+}
+.blog-post img {
+    width: 40%;
+    object-fit: cover;
+}
+
+@media (max-width:768px){
+
+    .blog-post{
+        flex-direction: column;
+    }
+
+    .blog-post img{
+        width: 100%;
+    }
+}
+
+/*footer*/
+
+footer{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/cover3.jpg);
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer-top{
+    margin-bottom: 30px;
+}
+
+footer img{
+    max-width: 150px;
+}
+
+footer p, footer  a{
+    color: rgba(255,255,255,0.75);
+
+}
+
+footer a{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+footer .footer-link{
+    font-size: 18px;
+}
+
+.footer-bottom{
+    padding-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.4);
+}
