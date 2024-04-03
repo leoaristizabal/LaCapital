@@ -123,7 +123,7 @@ const Products = () => {
             tabindex="0"
           >
 
-            {/**CARNES* */}
+            {/**TODOS LOS ITEMS: *CARNES* */}
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
@@ -478,6 +478,7 @@ const Products = () => {
                 </div>
               </div>
             </div>
+
           </div>
 
           {/*<!--Only carnes-->*/}
