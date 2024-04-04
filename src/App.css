@@ -7,9 +7,9 @@
     --or:#aa272f;
     --or2:#d9ac6d;
     --wh1:#fff;
-    --star:gold;
-    --grisrgb: rgba(255,255,255,0.2);
-}
+    --star:#d9ac6d;
+    --grisrgb: #e0e6e6;
+}   
 
 
 body{
@@ -128,6 +128,7 @@ section{
 }
 
 /*about*/
+
 #about p{
     text-align: justify;
 }
@@ -195,12 +196,18 @@ section{
 }
 /*Features*/
 
-#features{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../src/assets/CapLogoRedondo.svg);
+#features {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/src/assets/Hero/La_Capital_11_IG_Marmol_PNGs@0\,5x.png);
 }
 
+
 .feature{
-    border: 2px solid var(--grisrgb);
+    border: 2px solid var(--wh1);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+.feature:hover{
+    
+    box-shadow: 10px 20px 40px rgba(0,0,0,5);
 }
 
 .feature .feature-icon{
@@ -218,7 +225,7 @@ section{
 
 .team-member img{
     max-width: 140px;
-    box-shadow: -10px -10px 0 var(--or);
+    box-shadow: -10px -10px 0 var(--or2);
     border-radius: 100px;
 }
 
@@ -255,8 +262,10 @@ section{
 }
 #reservation .form-control:focus{
     box-shadow: none;
-    border: var(--or);
+    border: 1px solid var(--or2);
 }
+
+
 
 #reservation input.form-control{
     height: 47px;

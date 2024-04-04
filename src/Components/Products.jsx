@@ -24,7 +24,7 @@ const Products = () => {
           id="pills-tab"
           role="tablist"
         >
-          <li class="nav-item" role="presentation">
+          <li class="nav-item mb-2" role="presentation">
             <button
               class="nav-link active"
               id="pills-all-tab"
@@ -39,7 +39,7 @@ const Products = () => {
             </button>
           </li>
 
-          <li class="nav-item" role="presentation">
+          <li class="nav-item mb-2" role="presentation">
             <button
               class="nav-link"
               id="pills-carnes-tab"
@@ -54,7 +54,7 @@ const Products = () => {
             </button>
           </li>
 
-          <li class="nav-item" role="presentation">
+          <li class="nav-item mb-2" role="presentation">
             <button
               class="nav-link"
               id="pills-pollo-tab"
@@ -69,7 +69,7 @@ const Products = () => {
             </button>
           </li>
 
-          <li class=" nav-item" role="presentation">
+          <li class=" nav-item mb-2" role="presentation">
             <button
               class="nav-link"
               id="pills-cerdo-tab"
@@ -83,7 +83,7 @@ const Products = () => {
               Cerdo
             </button>
           </li>
-          <li class=" nav-item" role="presentation">
+          <li class=" nav-item mb-2" role="presentation">
             <button
               class="nav-link"
               id="pills-embutido-tab"
@@ -97,7 +97,7 @@ const Products = () => {
               Embutidos
             </button>
           </li>
-          <li class=" nav-item" role="presentation">
+          <li class=" nav-item mb-2" role="presentation">
             <button
               class="nav-link"
               id="pills-viveres-tab"

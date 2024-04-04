@@ -6,6 +6,9 @@ import Hero from './Components/Hero';
 import About from './Components/About';
 import Products from './Components/Products';
 import Features from './Components/Features';
+import Posts from './Components/Posts';
+import Form from './Components/Form';
+import Blog from './Components/Blog';
 import './App.css'
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -19,6 +22,9 @@ function App() {
      <About/>
      <Products/>
      <Features/>
+     <Form/>
+     <Posts/>
+     <Blog/>
     </>
   )
 }

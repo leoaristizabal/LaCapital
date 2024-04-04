@@ -7,7 +7,7 @@ const Features = () => {
         <div class="container">
             <div class="row">
                 <div class="col-12 intro-text">
-                    <h1 class="text-white">Why to choose us?</h1>
+                    <h1 class="text-white">¿Por qué escoger La Capital Carniceria?</h1>
                     <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quo eius
                         totam officiis eum ratione distinctio?</p>
                 </div>
@@ -19,8 +19,8 @@ const Features = () => {
                         <div class="feature-icon">
                             <i class="fa-solid fa-wifi"></i>
                         </div>
-                        <h4 class="text-white mt-4 mb-2">Free Wifi</h4>
-                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate</p>
+                        <h4 class="text-white mt-4 mb-2">Acento Venezolano</h4>
+                        <p class="text-white">Te hacemos sentir como en casa!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -28,8 +28,8 @@ const Features = () => {
                         <div class="feature-icon">
                             <i class="fa-solid fa-clock"></i>
                         </div>
-                        <h4 class="text-white mt-4 mb-2">Fast Delivery</h4>
-                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate</p>
+                        <h4 class="text-white mt-4 mb-2">Delivery Gratis</h4>
+                        <p class="text-white">Te hacemos sentir como en casa!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -38,7 +38,7 @@ const Features = () => {
                             <i class="fa-solid fa-dog"></i>
                         </div>
                         <h4 class="text-white mt-4 mb-2">Pet Friendly</h4>
-                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate</p>
+                        <p class="text-white">Te hacemos sentir como en casa!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -46,11 +46,13 @@ const Features = () => {
                         <div class="feature-icon">
                             <i class="fa-solid fa-star"></i>
                         </div>
-                        <h4 class="text-white mt-4 mb-2">Highly Rated</h4>
-                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate</p>
+                        <h4 class="text-white mt-4 mb-2">Cortes de Primera</h4>
+                        <p class="text-white">Te hacemos sentir como en casa!</p>
                     </div>
                 </div>
             </div>
+
+            {/**AGREGAR ACA IMAGEN DE BANNER DE PAGINA 23 DEL BRANDING */}
         </div>
     </section>
   )
