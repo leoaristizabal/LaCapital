@@ -30,16 +30,16 @@ const Navbar = () => {
                         <a class="nav-link" href="#menu">Productos</a>
                     </li>
 
-                    <li class="nav-item">
+                   { /*<li class="nav-item">
                         <a class="nav-link" href="#team">Team</a>
-                    </li>
+                    </li>*/}
 
                     <li class="nav-item">
                         <a class="nav-link" href="#reservation">Pedidos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Cortes Mas Vendidos</a>
+                        <a class="nav-link" href="#blog">Recetas</a>
                     </li>
 
                 </ul>

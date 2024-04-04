@@ -197,7 +197,7 @@ section{
 /*Features*/
 
 #features {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/src/assets/Hero/La_Capital_11_IG_Marmol_PNGs@0\,5x.png);
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(../src/assets/Hero/CUADRADO@0\,5x.jpg);
 }
 
 
@@ -207,7 +207,7 @@ section{
 }
 .feature:hover{
     
-    box-shadow: 10px 20px 40px rgba(0,0,0,5);
+    box-shadow: 0 10px 40px rgba(0,0,0,5);
 }
 
 .feature .feature-icon{
@@ -328,7 +328,7 @@ section{
 /*footer*/
 
 footer{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/cover3.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../src/assets/About/LaCapitalAbout2.png);
     padding-top: 100px;
     padding-bottom: 30px;
 }

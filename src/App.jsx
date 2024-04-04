@@ -12,6 +12,7 @@ import Blog from './Components/Blog';
 import './App.css'
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
      <Form/>
      <Posts/>
      <Blog/>
+     <Footer/>
     </>
   )
 }
