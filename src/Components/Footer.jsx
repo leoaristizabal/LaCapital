@@ -10,7 +10,7 @@ const Footer = () => {
                     <div class="col-lg-4">
                         <img src={Logo} class="mb-4" alt=""/>
                         <p>C/ Pont del Treball Digne 5. 08020</p>
-                        <div class="social-links">
+                        <div class="footer-social-links">
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
                             <a href="#"><i class="fa-brands fa-facebook"></i></a>
                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -37,7 +37,7 @@ const Footer = () => {
             <div class="container">
                 <div class="row gy-3 justify-content-between">
                     <div class="col-auto">
-                        <p class="mb-0">Copyright  2024 © Designed by <a class="footer-link" href="https://github.com/leoaristizabal">LeoAristizabal.</a>All rights reserved.</p>
+                        <p class="mb-0">Copyright  2024 © Designed by <a class="footer-link" href="https://github.com/leoaristizabal">AvocoDesign.</a>All rights reserved.</p>
                     </div>
                 </div>
             </div>

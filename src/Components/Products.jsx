@@ -127,7 +127,7 @@ const Products = () => {
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img isZommed src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -152,7 +152,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                <img  src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.9)</span>
@@ -177,7 +177,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                <img  src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -202,7 +202,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                <img  src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.5)</span>
@@ -227,7 +227,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.8)</span>
@@ -252,7 +252,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.9)</span>
@@ -277,7 +277,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -303,7 +303,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.8)</span>
@@ -329,7 +329,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -354,7 +354,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -379,7 +379,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.0)</span>
@@ -404,7 +404,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.0)</span>
@@ -429,7 +429,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -454,7 +454,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -492,7 +492,7 @@ const Products = () => {
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -517,7 +517,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.9)</span>
@@ -542,7 +542,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -567,7 +567,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.5)</span>
@@ -592,7 +592,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.8)</span>
@@ -617,7 +617,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.9)</span>
@@ -642,7 +642,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -668,7 +668,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.8)</span>
@@ -694,7 +694,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -719,7 +719,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -744,7 +744,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.0)</span>
@@ -769,7 +769,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.0)</span>
@@ -794,7 +794,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba} alt="" />
+                  <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -819,7 +819,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src={ImagenPrueba2} alt="" />
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -855,7 +855,7 @@ const Products = () => {
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_6.jpg" alt="" />
+                  <img   src="./assets/images/item_6.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -879,7 +879,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_5.jpg" alt="" />
+                  <img   src="./assets/images/item_5.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -903,7 +903,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_1.jpg" alt="" />
+                  <img   src="./assets/images/item_1.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -951,7 +951,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_2.jpg" alt="" />
+                  <img   src="./assets/images/item_2.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -975,7 +975,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_6.jpg" alt="" />
+                  <img   src="./assets/images/item_6.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -999,7 +999,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_7.jpg" alt="" />
+                  <img   src="./assets/images/item_7.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1023,7 +1023,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_8.jpg" alt="" />
+                  <img   src="./assets/images/item_8.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1058,7 +1058,7 @@ const Products = () => {
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_4.jpg" alt="" />
+                  <img   src="./assets/images/item_4.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1082,7 +1082,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_3.jpg" alt="" />
+                  <img   src="./assets/images/item_3.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1106,7 +1106,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_2.jpg" alt="" />
+                  <img   src="./assets/images/item_2.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1130,7 +1130,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_1.jpg" alt="" />
+                  <img   src="./assets/images/item_1.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1165,7 +1165,7 @@ const Products = () => {
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_4.jpg" alt="" />
+                  <img   src="./assets/images/item_4.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1189,7 +1189,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_3.jpg" alt="" />
+                  <img   src="./assets/images/item_3.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1213,7 +1213,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_2.jpg" alt="" />
+                  <img   src="./assets/images/item_2.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1237,7 +1237,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_1.jpg" alt="" />
+                  <img   src="./assets/images/item_1.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1272,7 +1272,7 @@ const Products = () => {
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_4.jpg" alt="" />
+                  <img   src="./assets/images/item_4.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1296,7 +1296,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_3.jpg" alt="" />
+                  <img   src="./assets/images/item_3.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1320,7 +1320,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_2.jpg" alt="" />
+                  <img   src="./assets/images/item_2.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1344,7 +1344,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_1.jpg" alt="" />
+                  <img   src="./assets/images/item_1.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>

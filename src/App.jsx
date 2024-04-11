@@ -13,6 +13,7 @@ import './App.css'
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from './Components/Footer';
+import Rrss from './Components/Rrss';
 
 
 function App() {

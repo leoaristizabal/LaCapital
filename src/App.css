@@ -26,12 +26,13 @@ h1,h2,h3,h4,h5,h6{
 a{
     color: var(--bl1);
     text-decoration: none;
-    transition: all 0.4s;
+    transition: transform 0.4s;
     font-weight: 600;
 }
 
 a:hover{
     color: var(--or);
+    transform: scale(1.03);
 }
 
 .logonav {
@@ -45,7 +46,7 @@ img{
 
 section{
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 20px;
 }
 
 .shadow-on-hover {
@@ -121,8 +122,8 @@ section{
 }
 
 .logobanner{
-    max-width: 100%; /* ajusta el tamaño máximo de la imagen según tu preferencia */
-    max-height: 100vh; /* ajusta la altura máxima de la imagen según tu preferencia */
+    max-width: 100%; 
+    max-height: 100vh; 
     width: auto;
     height: auto;
 }
@@ -134,22 +135,55 @@ section{
 }
 
 #about .divider1{
-    width: 30px;
+    width: 27px;
     height: 3px;
     display: inline-block;
     background-color: yellow;
 }
 #about .divider2{
-    width: 30px;
+    width: 27px;
     height: 3px;
     display: block;
     background-color: blue;
 }
 #about .divider3{
-    width: 30px;
+    width: 27px;
     height: 3px;
     display: block;
     background-color: red;
+}
+
+
+.social-links a{
+    font-size: 24px;
+    margin-right: 10px;
+    transition: transform 0.25s ease;
+}
+
+.social-links a:hover{
+    transform: scale(1.4); 
+}
+
+
+
+.img_about{
+    transition: transform 0.3s ease-in-out;
+}
+
+.img_about:hover{
+    transform: scale(1.025);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+}
+
+.banner_about{
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    margin: 2rem 0 0;
+}
+
+.banner_about:hover{
+    box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+    transform: scale(1.1);
 }
 
 /*Intro Text*/
@@ -158,6 +192,7 @@ section{
     margin-bottom: 40px;
     text-align: center;
 }
+
 .intro-text p{
     max-width: 500px;
     margin: 16px auto 0 auto;
@@ -180,7 +215,12 @@ section{
 }
 
 .menu-item {
+    transition: transform 0.15s ease-in-out;
     cursor: pointer;
+}
+
+.menu-item:hover{
+    transform: scale(1.033);
 }
 .menu-item .stars {
     color: var(--star);
@@ -202,14 +242,18 @@ section{
 
 
 .feature{
+    transition: transform 0.25s ease;
     border: 2px solid var(--wh1);
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
 }
 .feature:hover{
-    
+    transform: scale(1.025);
     box-shadow: 0 10px 40px rgba(0,0,0,5);
 }
 
+.feature h4{
+    font-size: 20px;
+}
 .feature .feature-icon{
     width: 80px;
     height: 80px;
