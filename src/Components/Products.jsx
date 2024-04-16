@@ -1,6 +1,9 @@
 import React from "react";
 import ImagenPrueba from "../assets/Hero/CUADRADO@0,5x.jpg";
 import ImagenPrueba2 from "../assets/Hero/MAMUT@0,25x.jpg";
+import ImagenPruebaPollo from "../assets/Products/PuntaTrasera.jpg"
+import ImagenPruebaCerdo from "../assets/Products/CERDOPRUEBA.jpg"
+import ImagenPruebaEmbutidos from "../assets/Products/Chorizos.png"
 
 const Products = () => {
   return (
@@ -35,7 +38,7 @@ const Products = () => {
               aria-controls="pills-all"
               aria-selected="true"
             >
-              Todo
+              Los Más Vendidos
             </button>
           </li>
 
@@ -100,6 +103,20 @@ const Products = () => {
           <li class=" nav-item mb-2" role="presentation">
             <button
               class="nav-link"
+              id="pills-quesos-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-quesos"
+              type="button"
+              role="tab"
+              aria-controls="pills-quesos"
+              aria-selected="true"
+            >
+              Quesos
+            </button>
+          </li>
+          <li class=" nav-item mb-2" role="presentation">
+            <button
+              class="nav-link"
               id="pills-viveres-tab"
               data-bs-toggle="pill"
               data-bs-target="#pills-viveres"
@@ -125,6 +142,7 @@ const Products = () => {
 
             {/**TODOS LOS ITEMS: *CARNES* */}
             <div class="row gy-4">
+            <h2>CARNES </h2>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
                   <img isZommed src={ImagenPrueba} alt="" />
@@ -474,6 +492,211 @@ const Products = () => {
                       mozzarella ahumada de la casa.
                     </p>
                     <h6 className="tagprice">16,90 €/Kg</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/*POLLOS */}
+            <div class="row gy-4">
+              <h2>POLLO </h2>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPruebaPollo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (4.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Pollo Entero</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">4,90 €/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPruebaPollo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Pechuga</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">8,90 €/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPruebaPollo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (4.8)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Milanesa</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">8,90 €/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src={ImagenPruebaPollo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Muslo Entero</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">5,50 €/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPruebaPollo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (4.9)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Contramuslo Deshuesado</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">5,90 €/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPruebaPollo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Alitas</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">4,90 €/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPruebaPollo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.5)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Pincho de Pollo</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">1,50 €/Unidad</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src={ImagenPruebaPollo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Carapacho</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">0,50 €/Kg</h6>
                   </div>
                 </div>
               </div>
@@ -855,10 +1078,10 @@ const Products = () => {
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_6.jpg" alt="" />
+                  <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (5.4)</span>
+                      <span>Rated (4.4)</span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -868,18 +1091,19 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Pollo Entero</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">4,90 €/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_5.jpg" alt="" />
+                  <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -892,21 +1116,22 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Pechuga</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">8,90 €/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_1.jpg" alt="" />
+                  <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (5.4)</span>
+                      <span>Rated (4.8)</span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -916,18 +1141,19 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Milanesa</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">8,90 €/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img src="./assets/images/item_4.jpg" alt="" />
+                  <img src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -940,21 +1166,22 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Muslo Entero</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">5,50 €/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_2.jpg" alt="" />
+                  <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (5.4)</span>
+                      <span>Rated (4.9)</span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -964,18 +1191,19 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Contramuslo Deshuesado</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">5,90 €/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_6.jpg" alt="" />
+                  <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -988,21 +1216,22 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Alitas</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">4,90 €/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_7.jpg" alt="" />
+                  <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (5.4)</span>
+                      <span>Rated (5.5)</span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -1012,18 +1241,19 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Pincho de Pollo</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">1,50 €/Unidad</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_8.jpg" alt="" />
+                  <img src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1036,12 +1266,13 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Carapacho</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">0,50 €/Kg</h6>
                   </div>
                 </div>
               </div>
@@ -1058,7 +1289,7 @@ const Products = () => {
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_4.jpg" alt="" />
+                  <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1071,21 +1302,22 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Lomo de Cerdo</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">8,90€/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_3.jpg" alt="" />
+                  <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (5.4)</span>
+                      <span>Rated (4.8)</span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -1095,21 +1327,22 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Chuleta Fresca</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">10,50€/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_2.jpg" alt="" />
+                  <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (5.4)</span>
+                      <span>Rated (4.5)</span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -1119,18 +1352,19 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Chuleta Ahumada</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">12,90€/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_1.jpg" alt="" />
+                  <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1143,15 +1377,142 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Cuello</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">11,50€/Kg</h6>
                   </div>
                 </div>
               </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPruebaCerdo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (4.6)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Costilla</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">10,50€/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPruebaCerdo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.1)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Paleta Deshuesada</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">10,50€/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPruebaCerdo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Pernil (Encargo)</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">6,47€/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPruebaCerdo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (4.8)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Lomito</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">12,50€/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPruebaCerdo} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Pincho de Cerdo</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">1,50€/Unidad</h6>
+                  </div>
+                </div>
+              </div>
+              
             </div>
           </div>
           {/*<!--Only Embutidos-->*/}
@@ -1165,10 +1526,10 @@ const Products = () => {
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_4.jpg" alt="" />
+                  <img src={ImagenPruebaEmbutidos} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (5.4)</span>
+                      <span>Rated (4.4)</span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -1178,21 +1539,22 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Chorizo Criollo</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">10,78€/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_3.jpg" alt="" />
+                  <img src={ImagenPruebaEmbutidos} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (5.4)</span>
+                      <span>Rated (4.9)</span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -1202,21 +1564,22 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Chorizo Fresco</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">10,53€/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_2.jpg" alt="" />
+                  <img src={ImagenPruebaEmbutidos} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (5.4)</span>
+                      <span>Rated (4.4)</span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -1226,18 +1589,55 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Chorizo Parrillero</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">10,50€/Kg</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
-                  <img   src="./assets/images/item_1.jpg" alt="" />
+                  <img src={ImagenPruebaEmbutidos} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (4.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Morcilla</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">12,90€/Kg</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/*<!--Only Quesos-->*/}
+          <div
+            class="tab-pane fade show"
+            id="pills-quesos"
+            role="tabpanel"
+            aria-labelledby="pills-quesos-tab"
+            tabindex="0"
+          >
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.4)</span>
@@ -1250,12 +1650,213 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
+                      <a href="#">Queso Llanero</a>
                     </h5>
                     <p class="small">
                       Carne de res acompañada con una fusión de queso muster y
                       mozzarella ahumada de la casa.
                     </p>
+                    <h6 className="tagprice">12,00€/kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPrueba2} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Semiduro</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">12,90€/kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPrueba2} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Duro 500gr</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">8,00€</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPrueba2} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">De Mano 500gr</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">8,00€</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPrueba2} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Guayanes 250gr</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">4,50€</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPrueba2} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Palmita 450gr</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">7,50€</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPrueba2} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Seco 500gr</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">9,45€</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPrueba2} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Nata Criolla 250gr</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">3,50€</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img   src={ImagenPrueba2} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (5.4)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Guasacaca</a>
+                    </h5>
+                    <p class="small">
+                      Carne de res acompañada con una fusión de queso muster y
+                      mozzarella ahumada de la casa.
+                    </p>
+                    <h6 className="tagprice">3,90€</h6>
                   </div>
                 </div>
               </div>
