@@ -11,10 +11,14 @@ import Form from './Components/Form';
 import Blog from './Components/Blog';
 import './App.css'
 
+import AvatarWa from './assets/Hero/svgNegroRedondo.svg'
+
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from './Components/Footer';
 import Rrss from './Components/Rrss';
+import Scrollup from './Components/Scrollup';
 
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 function App() {
   return (
@@ -28,6 +32,8 @@ function App() {
      <Posts/>
      <Blog/>
      <Footer/>
+     <Scrollup/>
+     <FloatingWhatsApp accountName='La Capital Carniceria' phoneNumber='584245989755' avatar={AvatarWa} statusMessage='Online' chatMessage='Hola! Bienvenido a La Capital Carniceria ¿Cómo podemos ayudarte?' placeholder='Mensaje' messageDelay={2} notificationSound='false'/>
     </>
   )
 }

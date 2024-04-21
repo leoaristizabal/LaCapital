@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/CapLogo.svg'
+import Logo from '../assets/Hero/svgNoFondoLogo3.png'
 
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div class="col-lg-3 ms-auto">
-                        <h6 class="text-white mb-4">CONTACT</h6>
+                        <h6 class="text-white mb-4">CONTACTO</h6>
                         <p class="mb-1">+34 604919354</p>
                         <p class="mb-1">+34 658564444</p>
                         <p class="mb-1">pedidos@lacapitalcarniceria.com</p>
