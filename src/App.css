@@ -26,13 +26,13 @@ h1,h2,h3,h4,h5,h6{
 a{
     color: var(--bl1);
     text-decoration: none;
-    transition: transform 0.4s;
     font-weight: 600;
+    transition: transform all 1s ease-in-out;
 }
 
 a:hover{
     color: var(--or);
-    transform: scale(1.03);
+    transform: scale(1.1);
 }
 
 .logonav {
@@ -68,20 +68,21 @@ section{
     font-weight: 500;
     border-color: var(--or);
     box-shadow: 0 1px 3px var(--or);
+    transition: transform .1s ease-in-out;
 }
 
 .btn-brand:hover{
-    background-color: var(--or2);
+    background-color: var(--or);
     border-color: var(--or2);
     color: var(--wh1);
     box-shadow: 0 10px 40px var(--or2);
     border-radius: 10px;
-    transition:ease 0.5s;
+    transform: scale(1.1);
 }
 
 .bg-cover {
     background-repeat: no-repeat !important;
-    background-position: center !important;
+    background-position: center;
     background-size: cover !important;
 }
 
@@ -90,17 +91,77 @@ section{
   background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));
   margin-top: 32rem;
 }
+
+.nav-item.active .nav-link {
+    color: var(--or); /* Color de la pestaña activa */
+    font-weight: bold;
+    transform: scale(1.1);
+  }
+  
 /*SliderHero*/
 
-.slide-1{
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../src/assets/Hero/banner.png);
-}
 .slide-2{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../src/assets/About/About3.png)
-   
+  
 }
 .slide-3{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../src/assets/Hero/banner.png);
+   
+}
+.slide-1{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../src/assets/About/LACapitalAbout.png);
+}
+
+.logobanner2{
+    display: none;
+}
+
+/*Animacion al iniciar imagen de logobanner*/
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .logobanner1, .logobanner2 {
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+  
+  /* Asegúrate de que la animación se ejecute cada vez que el ítem del carrusel se vuelva activo */
+  .carousel-item.active .logobanner1,
+  .carousel-item.active .logobanner2 {
+    animation-name: fadeIn;
+  }
+  
+@media (max-width:768px){
+
+      .logobanner1{
+        display: none;
+      }
+
+      .slide-1{
+        background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),url(../src/assets/Hero/banner.png);
+        background-position:center;
+      }
+      .slide-2{
+        background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),url(../src/assets/Hero/banner.png);
+        background-position: right;
+         
+      }
+      .slide-3{
+        background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),url(../src/assets/Hero/banner.png);
+        background-position: left;
+      }
+
+      .logobanner2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+
+   
 }
 
 #heroSlider h6::after, #heroSlider h6::before{
@@ -157,11 +218,11 @@ section{
 .social-links a{
     font-size: 24px;
     margin-right: 10px;
-    transition: transform 0.25s ease;
+    transition: transform 0.25s ease-in-out;
 }
 
-.social-links a:hover{
-    transform: scale(1.4); 
+.social-link:hover{
+    transform: scale(1.5);
 }
 
 
@@ -237,7 +298,7 @@ section{
 /*Features*/
 
 #features {
-    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(../src/assets/Hero/CUADRADO@0\,5x.jpg);
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../src/assets/Hero/CUADRADO@0,5x.jpg);
 }
 
 

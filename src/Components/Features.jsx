@@ -17,10 +17,10 @@ const Features = () => {
                 <div class="col-lg-3 col-sm-6">
                     <div class="feature p-4 text-center">
                         <div class="feature-icon">
-                            <i class="fa-solid fa-wifi"></i>
+                            <i class="fa-solid fa-flag"></i>
                         </div>
                         <h4 class="text-white mt-4 mb-2">Acento Venezolano</h4>
-                        <p class="text-white">Te hacemos sentir como en casa!</p>
+                        <p class="text-white">Te hacemos sentir como en casa</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -29,16 +29,16 @@ const Features = () => {
                             <i class="fa-solid fa-clock"></i>
                         </div>
                         <h4 class="text-white mt-4 mb-2">Delivery Gratis</h4>
-                        <p class="text-white">Te hacemos sentir como en casa!</p>
+                        <p class="text-white">Hasta la puerta de tu hogar!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="feature p-4 text-center">
                         <div class="feature-icon">
-                            <i class="fa-solid fa-dog"></i>
+                            <i class="fa-solid fa-person"></i>
                         </div>
-                        <h4 class="text-white mt-4 mb-2">Pet Friendly</h4>
-                        <p class="text-white">Te hacemos sentir como en casa!</p>
+                        <h4 class="text-white mt-4 mb-2">Atención Personalizada</h4>
+                        <p class="text-white">¡A tu gusto, como te gusta!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -47,12 +47,10 @@ const Features = () => {
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <h4 class="text-white mt-4 mb-2">Cortes de Primera</h4>
-                        <p class="text-white">Te hacemos sentir como en casa!</p>
+                        <p class="text-white">¡Los mejores cortes a tu gusto!</p>
                     </div>
                 </div>
             </div>
-
-            {/**AGREGAR ACA IMAGEN DE BANNER DE PAGINA 23 DEL BRANDING */}
         </div>
     </section>
   )
