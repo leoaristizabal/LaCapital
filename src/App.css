@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
 
+/*Fuentes Locales del Branding*/
+
 @font-face {
     font-family: 'Montreux Grotesk';
     src: url('./Font/Montreux Grotesk/MontreuxG-Rg.otf') format('opentype');
@@ -68,7 +70,7 @@ a{
 
 a:hover{
     color: var(--or);
-    transform: scale(1.1);
+    transform: scale(1.025);
 }
 
 .logonav {
@@ -131,7 +133,7 @@ section{
 .nav-item.active .nav-link {
     color: var(--or); /* Color de la pestaña activa */
     font-weight: bold;
-    transform: scale(1.1);
+    transform: scale(1.025);
   }
   
 /*SliderHero*/
@@ -523,7 +525,7 @@ footer .footer-link{
 
 .scrollup:hover{
     background-color: var(--or2);
-    color: var(--or);
+    color: var(--wh1);
 }
 
 

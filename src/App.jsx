@@ -15,7 +15,6 @@ import AvatarWa from './assets/Hero/svgNegroRedondo.svg'
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from './Components/Footer';
-import Rrss from './Components/Rrss';
 import Scrollup from './Components/Scrollup';
 
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
