@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-black shadow sticky-top">
       <div className="container">
         <a className="navbar-brand" href="#">
           <img className="logonav" src={Logo} alt="Logo La Capital" />

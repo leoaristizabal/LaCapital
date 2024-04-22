@@ -52,24 +52,20 @@
 
 body{
     font-family: 'Spline Sans', sans-serif;
-    color: var(--gr);
+    background-color: #000;
+    color: var(--wh1);
     line-height: 1.7;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-weight: 600;
-    color: var(--bl1);
+    color: var(--wh1);
 }
 
-h1,h2,h3{
-    font-family: 'Stephile Script', sans-serif;
-    font-size: 70px;
-    font-weight: 600;
-    color: var(--bl1);
-}
+
 
 a{
-    color: var(--bl1);
+    color: var(--wh1);
     text-decoration: none;
     font-weight: 600;
     transition: transform all 1s ease-in-out;
@@ -141,6 +137,9 @@ section{
     color: var(--or); /* Color de la pestaña activa */
     font-weight: bold;
     transform: scale(1.025);
+  }
+.nav-item .nav-link {
+    color: var(--wh1); ;
   }
   
 /*SliderHero*/
@@ -325,6 +324,7 @@ section{
 .menu-item {
     transition: transform 0.15s ease-in-out;
     cursor: pointer;
+    border: solid 1px var(--wh1);
 }
 
 .menu-item:hover{

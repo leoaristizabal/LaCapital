@@ -7,7 +7,7 @@ import ImagenPruebaEmbutidos from "../assets/Products/Chorizos.png"
 
 const Products = () => {
   return (
-    <section id="menu" class="bg-light">
+    <section id="menu" class="bg-black">
       <div class="container">
         <div class="row">
           <div class="col-12 intro-text">
@@ -143,7 +143,7 @@ const Products = () => {
             {/*POLLOS */}
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -168,7 +168,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -356,7 +356,7 @@ const Products = () => {
           >
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
