@@ -84,7 +84,7 @@ img{
 
 section{
     padding-top: 120px;
-    padding-bottom: 20px;
+    padding-bottom: 22px;
 }
 
 .shadow-on-hover {
@@ -162,7 +162,7 @@ section{
   
   .logobanner1, .logobanner2 {
     animation-name: fadeIn;
-    animation-duration: 3.5s;
+    animation-duration: 3.5s ;
     animation-fill-mode: both;
   }
   
@@ -267,6 +267,7 @@ section{
 
 .img_about{
     transition: transform 0.3s ease-in-out;
+    
 }
 
 .img_about:hover{
@@ -278,6 +279,7 @@ section{
     transition: transform 0.3s ease-in-out;
     width: 100%;
     margin: 2rem 0 0;
+    animation: imgScale 3s infinite;
 }
 
 .banner_about:hover{
@@ -343,11 +345,13 @@ section{
 .feature{
     transition: transform 0.25s ease;
     border: 2px solid var(--wh1);
-    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.9);
+    animation: imgScale 15s infinite;
 }
 .feature:hover{
     transform: scale(1.025);
     box-shadow: 0 10px 40px rgba(0,0,0,5);
+    animation: none;
 }
 
 .feature h4{
@@ -434,27 +438,55 @@ section{
     font-size: 26px;
     transform: translate(-50%,-50%);
     opacity: 0;
+    animation: btnFadeInOut 5s infinite; /* Agregar animación al botón */
 }
 .insta-post img{
     transition: all 0.4s;
+    animation: imgScale 5s infinite; /* Agregar animación a la imagen */
 }
 
 .insta-post:hover img{
     transform: scale(1.2);
+    animation: none;
 }
 
 .insta-post:hover .insta-btn{
     opacity: 1;
 }
 
+/* Animación que alterna la escala de la imagen */
+@keyframes imgScale {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+/* Animación que alterna la opacidad del botón */
+@keyframes btnFadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
 /*Blog Post*/
 
 .blog-post{
     cursor: pointer;
+    transition: transform 0.1s ease-in;
 }
 .blog-post img {
     width: 40%;
     object-fit: cover;
+}
+
+.blog-post:hover{
+    transform: scale(1.025);
+    box-shadow: 0 10px 40px rgba(0,0,0,5);
 }
 
 @media (max-width:768px){
@@ -472,7 +504,7 @@ section{
 
 footer{
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../src/assets/About/LaCapitalAbout2.png);
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 30px;
 }
 
@@ -481,7 +513,7 @@ footer{
 }
 
 footer img{
-    max-width: 150px;
+    max-width: 500px;
 }
 
 footer p, footer  a{

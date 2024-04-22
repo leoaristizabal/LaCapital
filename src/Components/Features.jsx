@@ -26,7 +26,7 @@ const Features = () => {
                 <div class="col-lg-3 col-sm-6">
                     <div class="feature p-4 text-center">
                         <div class="feature-icon">
-                            <i class="fa-solid fa-clock"></i>
+                            <i class="fa-solid fa-motorcycle"></i>
                         </div>
                         <h4 class="text-white mt-4 mb-2">Delivery Gratis</h4>
                         <p class="text-white">Hasta la puerta de tu hogar!</p>

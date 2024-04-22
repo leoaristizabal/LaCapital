@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import About from './Components/About';
 import Products from './Components/Products';
+
 import Features from './Components/Features';
 import Posts from './Components/Posts';
 import Form from './Components/Form';
@@ -32,7 +33,7 @@ function App() {
      <Blog/>
      <Footer/>
      <Scrollup/>
-     <FloatingWhatsApp accountName='La Capital Carniceria' phoneNumber='584245989755' avatar={AvatarWa} statusMessage='Online' chatMessage='Hola! Bienvenido a La Capital Carniceria ¿Cómo podemos ayudarte?' placeholder='Mensaje' messageDelay={2} notificationSound='false'/>
+     <FloatingWhatsApp accountName='La Capital Carniceria' phoneNumber='34627765230' avatar={AvatarWa} statusMessage='Online' chatMessage='Hola! Bienvenido a La Capital Carniceria ¿Cómo podemos ayudarte?' placeholder='Mensaje' messageDelay={1} />
     </>
   )
 }
