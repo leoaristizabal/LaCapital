@@ -63,6 +63,7 @@ h1,h2,h3,h4,h5,h6{
 
 h1,h2,h3{
     font-family: 'Stephile Script', sans-serif;
+    font-size: 70px;
     font-weight: 600;
     color: var(--bl1);
 }
