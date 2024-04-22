@@ -142,7 +142,6 @@ const Products = () => {
 
             {/**TODOS LOS ITEMS: *CARNES* */}
             <div class="row gy-4">
-            <h2>CARNES </h2>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
                   <img isZommed src={ImagenPrueba} alt="" />
@@ -168,31 +167,7 @@ const Products = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
-                <img  src={ImagenPrueba2} alt="" />
-                  <div class="menu-item-content p-4">
-                    <div>
-                      <span>Rated (4.9)</span>
-                      <span class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </span>
-                    </div>
-                    <h5 class="mt-1 mb-2">
-                      <a href="#">Bistec de Primera</a>
-                    </h5>
-                    <p class="small">
-                      Carne de res acompañada con una fusión de queso muster y
-                      mozzarella ahumada de la casa.
-                    </p>
-                    <h6 className="tagprice">14,90 €/Kg</h6>
-                  </div>
-                </div>
-              </div>
+              
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
                 <img  src={ImagenPrueba} alt="" />
@@ -499,7 +474,6 @@ const Products = () => {
             
             {/*POLLOS */}
             <div class="row gy-4">
-              <h2>POLLO </h2>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-white shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />

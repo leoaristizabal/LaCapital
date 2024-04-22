@@ -464,7 +464,7 @@ section{
 
 /* Animación que alterna la opacidad del botón */
 @keyframes btnFadeInOut {
-    0%, 100% {
+    10%, 100% {
         opacity: 0;
     }
     50% {
