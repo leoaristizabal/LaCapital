@@ -61,6 +61,12 @@ h1,h2,h3,h4,h5,h6{
     color: var(--bl1);
 }
 
+h1,h2,h3{
+    font-family: 'Stephile Script', sans-serif;
+    font-weight: 600;
+    color: var(--bl1);
+}
+
 a{
     color: var(--bl1);
     text-decoration: none;
