@@ -347,6 +347,7 @@ section {
     border-image-slice: 1;
     border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
     animation: rotate 4s linear infinite;
+    box-shadow: 0 2.5px 5px var(--or);
 }
 
 .menu-item:hover {
