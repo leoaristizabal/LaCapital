@@ -1,49 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
 
-/*Fuentes Locales del Branding*/
-
-@font-face {
-    font-family: 'Montreux Grotesk';
-    src: url('./Font/Montreux Grotesk/MontreuxG-Rg.otf') format('opentype');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Montreux Grotesk';
-    src: url('./Font/Montreux Grotesk/MontreuxG-Bk.otf') format('opentype');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'Montreux Grotesk';
-    src: url('./Font/Montreux Grotesk/MontreuxG-DmBd.otf') format('opentype');
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: 'Montreux Grotesk';
-    src: url('./Font/Montreux Grotesk/MontreuxG-Bd.otf') format('opentype');
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'Stardos Stencil';
-    src: url('./Font/Stardos_Stencil/StardosStencil-Regular.ttf') format('opentype');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Stardos Stencil';
-    src: url('./Font/Stardos_Stencil/StardosStencil-Bold.ttf') format('opentype');
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'Stephile Script';
-    src: url('./Font/stephile-font/StephileScript-BWv4l.ttf') format('opentype');
-    font-weight: 700;
-}
-
 :root {
     /*Navbar and home page colors*/
     --gr: #1e1e1e;

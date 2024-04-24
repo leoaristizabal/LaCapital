@@ -1,7 +1,6 @@
 import React from "react";
 import ImagenPrueba from "../assets/Products/MAMUT@0,25x.jpg";
 import ImagenPrueba2 from "../assets/Products/MAMUT@0,25x.jpg";
-import ImagenPruebaPollo from "../assets/Products/MAMUT@0,25x.jpg";
 import ImagenPruebaCerdo from "../assets/Products/CERDOPRUEBA.jpg"
 import ImagenPruebaEmbutidos from "../assets/Products/Chorizos.png"
 
