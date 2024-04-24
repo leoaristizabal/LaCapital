@@ -22,7 +22,7 @@ const Footer = () => {
                         <a href="https://wa.link/250pv0" class="footer-link22 mb-1"><i class="fa-brands fa-whatsapp"></i> +34 640 99 87 48</a>
                         <a class="footer-link22 mb-1"><i class="fa fa-phone"></i> +34 936 278 007</a>
                         <a href="mailto:pedidos@lacapitalcarniceria.com" class="footer-link22 mb-1"><i class="fa fa-envelope" aria-hidden="true"></i>  pedidos@lacapitalcarniceria.com</a>
-                        <p class="footer-link2 mb-1"><a class="footer-link" href="https://www.instagram.com/lacapitalcarniceria/">@lacapitalcarniceria</a></p>
+                        <p class="footer-link2 mb-1"><a class="footer-link" href="https://www.instagram.com/lacapitalcarniceria/"><i class="fa-brands fa-instagram"></i> LaCapitalCarniceria</a></p>
                         <p class="mb-0">Barcelona, España.</p>
                     </div>
                     <div class="col-lg-3">
