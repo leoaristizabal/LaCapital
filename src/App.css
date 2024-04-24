@@ -68,16 +68,16 @@ section {
 }
 
 .shadow-on-hover:hover {
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2.5px 5px var(--or);
 }
 
 .btn {
     border-radius: 0;
     padding: 14px 38px;
-    border: 1px solid;
+    border: 0.5px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
-    animation: rotate 8s linear infinite;
+    animation: rotate 4s linear infinite;
 }
 
 .btn-brand {
@@ -281,10 +281,11 @@ section {
 
 .img_about {
     transition: transform 0.3s ease-in-out;
-    border: 1px solid;
+    border: 0.5px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
-    animation: rotate 8s linear infinite;
+    animation: rotate 4s linear infinite;
+    box-shadow: 0 2.5px 5px var(--or);
 }
 
 .img_about:hover {
@@ -299,8 +300,14 @@ section {
     animation: imgScale 3s infinite;
 }
 
+@media (max-width:768px) {
+    .banner_about{
+        animation: none;
+    }
+}
+
 .banner_about:hover {
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2.5px 5px var(--or);
     transform: scale(1.1);
 }
 
@@ -324,21 +331,22 @@ section {
     margin-right: 8px;
     color: var(--bl1);
     border-radius: 100px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px var(--or);
 }
 
 #menu .nav-pills .nav-link.active {
     background-color: var(--or);
     color: var(--wh1);
+    box-shadow: 0 2.5px 5px var(--or2);
 }
 
 .menu-item {
     transition: transform 0.15s ease-in-out;
     cursor: pointer;
-    border: 1px solid;
+    border: 0.5px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
-    animation: rotate 8s linear infinite;
+    animation: rotate 4s linear infinite;
 }
 
 .menu-item:hover {
@@ -361,17 +369,17 @@ section {
 /*Features*/
 
 #features {
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../src/assets/Features/CUADRADO@0\,5x.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../src/assets/Features/CUADRADO@0,5x.jpg);
 }
 
 
 .feature {
     transition: transform 0.25s ease;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.9);
-    border: 1px solid;
+    box-shadow: 0 2.5px 5px var(--or);
+    border: 0.5px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
-    animation: rotate 8s linear infinite;
+    animation: rotate 4s linear infinite;
 }
 
 .feature:hover {
@@ -394,39 +402,6 @@ section {
     text-align: center;
 }
 
-/*Team*/
-
-.team-member img {
-    max-width: 140px;
-    box-shadow: -10px -10px 0 var(--or2);
-    border-radius: 100px;
-}
-
-/*Reviews*/
-
-#reviews {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cover3.jpg);
-}
-
-.review img {
-    width: 75px;
-    height: 75px;
-    object-fit: cover;
-}
-
-.review .quote-icon {
-    font-size: 74px;
-    color: var(--or);
-    line-height: 1;
-}
-
-.review .stars {
-    color: var(--or);
-}
-
-#reviews .carousel-indicators {
-    margin-bottom: -3rem;
-}
 
 /*reservation*/
 
@@ -435,15 +410,15 @@ section {
     border: 2px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
-    animation: rotate 8s linear infinite;
+    animation: rotate 4s linear infinite;
 }
 
 #reservation .form-control:focus {
-    box-shadow: none;
+    box-shadow: 0 2.5px 5px var(--or);
     border: 3.5px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
-    animation: rotate 8s linear infinite;
+    animation: rotate 4s linear infinite;
 }
 
 
@@ -524,10 +499,11 @@ section {
 .blog-post {
     cursor: pointer;
     transition: transform 0.1s ease-in;
-    border: 1px solid;
+    border: 0.5px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
-    animation: rotate 8s linear infinite;
+    animation: rotate 4s linear infinite;
+    box-shadow: 0 2.5px 5px var(--or);
 }
 
 .blog-post img {
@@ -537,7 +513,7 @@ section {
 
 .blog-post:hover {
     transform: scale(1.025);
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 5);
+    box-shadow: 0 2.5px 5px var(--or);
 }
 
 @media (max-width:768px) {
@@ -560,7 +536,7 @@ section {
 /*footer*/
 
 footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../src/assets/About/LaCapitalAbout2.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../src/assets/Hero/HeroBanner2.svg);
     padding-top: 80px;
     padding-bottom: 30px;
 }
@@ -609,7 +585,7 @@ footer .footer-link {
 /*SCROLLUP*/
 .scrollup {
     position: fixed;
-    right: 2.75rem;
+    right: 3rem;
     bottom: -20%;
     background-color: var(--or);
     opacity: 0.8;
@@ -642,7 +618,7 @@ footer .footer-link {
 
 @media screen and (max-width: 992px) {
     .scrollup {
-        right: 3rem;
+        right: 5rem;
         padding: 0.25rem 0.4rem;
     }
 
@@ -656,7 +632,7 @@ footer .footer-link {
 @media screen and (max-width: 686px) {
 
     .scrollup {
-        right: 1rem;
+        right: 2rem;
     }
 
     .scrollup__icon {
@@ -673,7 +649,7 @@ footer .footer-link {
 
 @media screen and (max-width: 350px) {
     .scrollup {
-        bottom: 8rem;
+        bottom: 6rem;
         margin-bottom: 0.5rem;
     }
 
