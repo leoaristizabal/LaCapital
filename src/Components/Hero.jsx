@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Logo1 from '../assets/Hero/banner.png'
+import Logo1 from '../assets/Hero/banner.svg'
 import Logo2 from '../assets/Hero/svgNoFondoLogo3.png'
 
 const Hero = () => {

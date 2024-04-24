@@ -8,8 +8,7 @@ const Features = () => {
             <div class="row">
                 <div class="col-12 intro-text">
                     <h1 class="text-white">¿Por qué escoger La Capital Carniceria?</h1>
-                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quo eius
-                        totam officiis eum ratione distinctio?</p>
+                    <p class="text-white">¡Descubre nuestra diferencia!<br/> Calidad excepcional, sabores puros, delivery gratis y un servicio que te hace sentir como en casa. Cada corte, una promesa de excelencia.</p>
                 </div>
             </div>
 
@@ -20,7 +19,7 @@ const Features = () => {
                             <i class="fa-solid fa-flag"></i>
                         </div>
                         <h4 class="text-white mt-4 mb-2">Acento Venezolano</h4>
-                        <p class="text-white">Te hacemos sentir como en casa</p>
+                        <p class="text-white">¡Te hacemos sentir como en casa</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -28,8 +27,8 @@ const Features = () => {
                         <div class="feature-icon">
                             <i class="fa-solid fa-motorcycle"></i>
                         </div>
-                        <h4 class="text-white mt-4 mb-2">Delivery Gratis</h4>
-                        <p class="text-white">Hasta la puerta de tu hogar!</p>
+                        <h4 class="text-white mt-4 mb-2">Nuestro Delivery Gratis</h4>
+                        <p class="text-white">¡Hasta la puerta de tu hogar!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">

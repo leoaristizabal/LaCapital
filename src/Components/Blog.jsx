@@ -11,8 +11,7 @@ const Blog = () => {
                 <div class="row">
                     <div class="col-12 intro-text">
                         <h1>Nuestras Recetas</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quo eius
-                            totam officiis eum ratione distinctio?</p>
+                        <p>Acompáñanos en nuestro blog donde compartimos recetas exclusivas, consejos de preparación y los secretos para sacarle el máximo sabor a cada pieza de carne.</p>
                     </div>
                 </div>
                 <div class="row gy-4">

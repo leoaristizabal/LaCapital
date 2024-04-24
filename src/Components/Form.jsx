@@ -7,7 +7,7 @@ const Form = () => {
             <div class="row">
                 <div class="col-12 intro-text">
                     <h1>Contáctanos</h1>
-                    <p>¿Algún comentario o sugerencia? No dudes en escribirnos</p>
+                    <p>¿Algún comentario o sugerencia?<br/> No dudes en escribirnos, estamos aquí para servirte y asegurarnos de que tu experiencia con La Capital Carniceria sea excepcional.</p>
                 </div>
             </div>
             <form action="#" class="row justify-content-center">

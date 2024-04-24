@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutBanner from '../assets/About/aboutbanner.png'
+import AboutBanner from '../assets/About/BannerAboutLaCapital.svg'
 import Imgig1 from '../assets/Posts/post3.svg'
 
 const BannerAbout = () => {

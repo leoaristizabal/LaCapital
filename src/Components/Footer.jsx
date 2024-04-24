@@ -39,7 +39,7 @@ const Footer = () => {
             <div class="container">
                 <div class="row gy-3 justify-content-between">
                     <div class="col-auto">
-                        <p class="mb-0">Copyright  2024 © Designed by <a class="footer-link" href="https://github.com/leoaristizabal">AvocoDesign.</a>All rights reserved.</p>
+                        <p class="mb-0">Copyright  2024 © Designed by <a class="footer-link" href="https://github.com/leoaristizabal">AvocoDesign.</a> </p>
                     </div>
                 </div>
             </div>

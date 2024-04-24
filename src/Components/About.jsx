@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutImg from '../assets/About/LACapitalAbout.png'
+import AboutImg from '../assets/About/About.svg'
 import Rrss from './Rrss'
 import BannerAbout from './BannerAbout'
 
@@ -19,10 +19,8 @@ const About = () => {
                             <div class="divider3"></div>
 
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, consequatur cum? Soluta
-                            optio laborum minus fugit.</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis amet provident autem eaque
-                            praesentium illum dolorum repellendus rerum, consequuntur at cumque voluptatem!</p>
+                        <p>En La Capital Carniceria, llevamos más de 2 años ofreciendo los cortes más frescos y de la más alta calidad. Nuestra pasión por la carne nos impulsa a seleccionar solo lo mejor para nuestros clientes, garantizando siempre un sabor y una frescura inigualables.</p>
+                        <p>Nos comprometemos a mantener los estándares más altos en cada paso del proceso, desde la selección rigurosa de proveedores hasta el meticuloso manejo de la carne en nuestras instalaciones. Porque para nosotros, la calidad no es solo una promesa, es nuestra firma.</p>
 
                         <Rrss />
 
