@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutImg from '../assets/About/LaCapitalAbout2.png'
+import AboutImg from '../assets/About/LACapitalAbout.png'
 import Rrss from './Rrss'
 import BannerAbout from './BannerAbout'
 

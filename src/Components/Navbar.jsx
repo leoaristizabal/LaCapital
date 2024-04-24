@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../assets/Hero/svgNegroRedondo.svg';
+import Logo from '../assets/Hero/svgRojoRedondo.svg';
 import '../App.css';
 
 const Navbar = () => {
@@ -55,7 +55,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <a href="#" className="btn btn-brand">Hacer Pedido</a>
+          <a href="https://wa.link/250pv0" className="btn btn-brand">Hacer Pedido</a>
         </div>
       </div>
     </nav>

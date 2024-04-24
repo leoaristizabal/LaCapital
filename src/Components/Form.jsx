@@ -6,8 +6,8 @@ const Form = () => {
         <div class="container">
             <div class="row">
                 <div class="col-12 intro-text">
-                    <h1>Haz tu pedido!</h1>
-                    <p>Llena los datos del formulario y te contactaremos confirmando tu pedido!</p>
+                    <h1>Contáctanos</h1>
+                    <p>¿Algún comentario o sugerencia? No dudes en escribirnos</p>
                 </div>
             </div>
             <form action="#" class="row justify-content-center">
@@ -27,7 +27,7 @@ const Form = () => {
                         </div>
                         <div class="form-group col-md-12">
                             <textarea name="" id="" cols="30" rows="4" class="form-control"
-                                placeholder="Mensaje Ejemplo:  3kg Mechar,  1.5 Kg Pulpa Negra,  1 Caja de Flips de Chocolate."></textarea>
+                                placeholder="Mensaje"></textarea>
                         </div>
                         <div class="form-group col-md-12 text-center">
                             <a href="#" class="btn btn-brand">Enviar Mensaje</a>

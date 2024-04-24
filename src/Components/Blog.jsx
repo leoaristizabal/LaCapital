@@ -32,7 +32,7 @@ const Blog = () => {
                         <img src={ImgBlog2} alt=""/>
                             <div class="blog-post-content  p-4">
                                 <p>Posted: 28 Enero, 2024</p>
-                                <h4><a href="https://www.instagram.com/reel/C2p6VM8rEXd/?igsh=MTQ0bjA4a3VoM2g1ZQ%3D%3D">Costillas de Cerdo en BBQ </a></h4>
+                                <h4><a href="https://www.instagram.com/reel/C2p6VM8rEXd/?igsh=MTQ0bjA4a3VoM2g1ZQ%3D%3D">Costillas al Kimche </a></h4>
                                 <p>Costillas de Cerdo en BBQ en salsa Kimche</p>
                                 <a href="https://www.instagram.com/reel/C2p6VM8rEXd/?igsh=MTQ0bjA4a3VoM2g1ZQ%3D%3D">Leer Mas</a>
                             </div>
@@ -44,7 +44,7 @@ const Blog = () => {
                             <div class="blog-post-content  p-4">
                                 <p>Posted: 07 Sept, 2023</p>
                                 <h4><a href="https://www.instagram.com/p/Cw5Mn7QoTn-/?igsh=MXh3Ynl5cnVhYWZ2Zw==">Un Asado Perfecto</a></h4>
-                                <p>Fin de semana largo + la mejor parrilla</p>
+                                <p>Fin de semana largo + la mejor compañia/parrilla</p>
                                 <a href="https://www.instagram.com/p/Cw5Mn7QoTn-/?igsh=MXh3Ynl5cnVhYWZ2Zw==">Leer Mas</a>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const Blog = () => {
                         <img src={ImgBlog4} alt=""/>
                             <div class="blog-post-content  p-4">
                                 <p>Posted: 23 Enero, 2024</p>
-                                <h4><a href="https://www.instagram.com/p/C2c2g7xI_t7/?igsh=dGFpam9jZmNrbHRp">Día internacional del Chorizo</a></h4>
+                                <h4><a href="https://www.instagram.com/p/C2c2g7xI_t7/?igsh=dGFpam9jZmNrbHRp">Día mundial del Chorizo</a></h4>
                                 <p>¿Que mejor que celebrar este dia a la parrilla?</p>
                                 <a href="https://www.instagram.com/p/C2c2g7xI_t7/?igsh=dGFpam9jZmNrbHRp">Leer Mas</a>
                             </div>

@@ -193,7 +193,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -218,7 +218,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -243,7 +243,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -268,7 +268,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -293,7 +293,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -318,7 +318,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -381,7 +381,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -406,7 +406,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -431,7 +431,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -456,7 +456,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -481,7 +481,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -506,7 +506,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -532,7 +532,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -558,7 +558,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -583,7 +583,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -608,7 +608,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -633,7 +633,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -658,7 +658,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -683,7 +683,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -719,7 +719,7 @@ const Products = () => {
           >
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -744,7 +744,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -769,7 +769,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -794,7 +794,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -819,7 +819,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -844,7 +844,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -869,7 +869,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -894,7 +894,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img src={ImagenPruebaPollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -930,7 +930,7 @@ const Products = () => {
           >
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -955,7 +955,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -980,7 +980,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1005,7 +1005,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1030,7 +1030,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1055,7 +1055,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1080,7 +1080,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1105,7 +1105,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1130,7 +1130,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPruebaCerdo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1167,7 +1167,7 @@ const Products = () => {
           >
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img src={ImagenPruebaEmbutidos} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1192,7 +1192,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img src={ImagenPruebaEmbutidos} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1217,7 +1217,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img src={ImagenPruebaEmbutidos} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1242,7 +1242,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img src={ImagenPruebaEmbutidos} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1278,7 +1278,7 @@ const Products = () => {
           >
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1303,7 +1303,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1328,7 +1328,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1353,7 +1353,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1378,7 +1378,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1403,7 +1403,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1428,7 +1428,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1453,7 +1453,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1478,7 +1478,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src={ImagenPrueba2} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1514,7 +1514,7 @@ const Products = () => {
           >
             <div class="row gy-4">
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src="./assets/images/item_4.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1538,7 +1538,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src="./assets/images/item_3.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1562,7 +1562,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src="./assets/images/item_2.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>
@@ -1586,7 +1586,7 @@ const Products = () => {
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-white shadow-on-hover">
+                <div class="menu-item bg-black shadow-on-hover">
                   <img   src="./assets/images/item_1.jpg" alt="" />
                   <div class="menu-item-content p-4">
                     <div>

@@ -76,6 +76,12 @@ a:hover{
     transform: scale(1.025);
 }
 
+/*Cambiar icono hamburguesa a blanco*/
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 .logonav {
     width: 85px !important;
     width: 100%;
@@ -101,6 +107,10 @@ section{
 .btn{
     border-radius: 0;
     padding: 14px 38px;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
+    animation: rotate 2s linear infinite;
 }
 
 .btn-brand{
@@ -117,7 +127,7 @@ section{
     border-color: var(--or2);
     color: var(--wh1);
     box-shadow: 0 10px 40px var(--or2);
-    border-radius: 10px;
+    border-radius: 5px;
     transform: scale(1.1);
 }
 
@@ -185,16 +195,16 @@ section{
       }
 
       .slide-1{
-        background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),url(../src/assets/Hero/banner.png);
+        background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(../src/assets/Hero/banner.png);
         background-position:center;
       }
       .slide-2{
-        background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),url(../src/assets/Hero/banner.png);
+        background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(../src/assets/Hero/banner.png);
         background-position: right;
          
       }
       .slide-3{
-        background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),url(../src/assets/Hero/banner.png);
+        background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(../src/assets/Hero/banner.png);
         background-position: left;
       }
 
@@ -202,6 +212,7 @@ section{
         display: flex;
         align-items: center;
         justify-content: center;
+        
       }
 
 
@@ -273,7 +284,10 @@ section{
 
 .img_about{
     transition: transform 0.3s ease-in-out;
-    
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
+    animation: rotate 2s linear infinite;
 }
 
 .img_about:hover{
@@ -324,7 +338,10 @@ section{
 .menu-item {
     transition: transform 0.15s ease-in-out;
     cursor: pointer;
-    border: solid 1px var(--wh1);
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
+    animation: rotate 2s linear infinite;
 }
 
 .menu-item:hover{
@@ -345,14 +362,17 @@ section{
 /*Features*/
 
 #features {
-    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../src/assets/Hero/CUADRADO@0,5x.jpg);
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.5)), url(../src/assets/Hero/CUADRADO@0,5x.jpg);
 }
 
 
 .feature{
     transition: transform 0.25s ease;
-    border: 2px solid var(--wh1);
     box-shadow: 0 15px 20px rgba(0,0,0,0.9);
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
+    animation: rotate 2s linear infinite;
 }
 .feature:hover{
     transform: scale(1.025);
@@ -411,10 +431,17 @@ section{
 
 #reservation .form-control{
     border-radius: 0;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
+    animation: rotate 2s linear infinite;
 }
 #reservation .form-control:focus{
     box-shadow: none;
-    border: 1px solid var(--or2);
+    border: 3.5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
+    animation: rotate 2s linear infinite;
 }
 
 
@@ -444,6 +471,8 @@ section{
     transform: translate(-50%,-50%);
     opacity: 0;
     animation: btnFadeInOut 5s infinite; /* Agregar animación al botón */
+    color: var(--or);
+    
 }
 .insta-post img{
     transition: all 0.4s;
@@ -465,7 +494,7 @@ section{
         transform: scale(1);
     }
     50% {
-        transform: scale(1.15);
+        transform: scale(1.125);
     }
 }
 
@@ -483,6 +512,10 @@ section{
 .blog-post{
     cursor: pointer;
     transition: transform 0.1s ease-in;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(var(--angle), var(--or), var(--or2));
+    animation: rotate 2s linear infinite;
 }
 .blog-post img {
     width: 40%;
@@ -524,7 +557,7 @@ footer{
 }
 
 footer img{
-    max-width: 500px;
+    max-width: 550px;
 }
 
 footer p, footer  a{
@@ -535,6 +568,17 @@ footer p, footer  a{
 footer a{
     font-size: 24px;
     margin-right: 10px;
+}
+
+.footer-link2{
+    font-size: medium;
+    display: flex;
+    cursor: pointer;
+}
+.footer-link22{
+    font-size: medium;
+    display: block;
+    cursor: pointer;
 }
 
 footer .footer-link{
@@ -615,4 +659,20 @@ footer .footer-link{
     margin-bottom: 0.5rem;}
   
   }
+
+  /*Bordes Animados Generales*/
+
+  /* Define la propiedad personalizada para el ángulo del degradado */
+  @property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }
   
+
+  /* Define la animación para rotar el degradado */
+@keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
