@@ -132,6 +132,7 @@ section {
 
     .logobanner1 {
         width: 76rem;
+        transition: .3s;
     }
 }
 
@@ -179,7 +180,7 @@ section {
     animation-name: fadeIn;
 }
 
-@media (max-width:768px) {
+@media (max-width:838px) {
 
     .logobanner1 {
         display: none;
@@ -331,7 +332,6 @@ section {
     margin-right: 8px;
     color: var(--bl1);
     border-radius: 100px;
-    box-shadow: 0px 2px 5px var(--or);
 }
 
 #menu .nav-pills .nav-link.active {
@@ -506,9 +506,17 @@ section {
     box-shadow: 0 2.5px 5px var(--or);
 }
 
-.blog-post img {
-    width: 40%;
+.blog-img{
+    width: 50%;
     object-fit: cover;
+}
+.blog-post-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
 }
 
 .blog-post:hover {
@@ -516,13 +524,13 @@ section {
     box-shadow: 0 2.5px 5px var(--or);
 }
 
-@media (max-width:768px) {
+@media (max-width:850px) {
 
     .blog-post {
         flex-direction: column;
     }
 
-    .blog-post img {
+    .blog-img {
         width: 100%;
     }
 }

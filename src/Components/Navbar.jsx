@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Logo from '../assets/Hero/svgRojoRedondo.svg';
 import '../App.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Navbar = () => {
   const [activeTab, setActiveTab] = useState('Inicio'); // Estado para la pestaña activa
@@ -14,7 +15,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-black shadow sticky-top">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img className="logonav" src={Logo} alt="Logo La Capital" />
+          <LazyLoadImage effect='blur' className="logonav" src={Logo} alt="Logo La Capital" />
         </a>
         <button
           className="navbar-toggler"

@@ -2,6 +2,8 @@ import React from "react";
 import "../App.css";
 import Logo1 from '../assets/Hero/banner.svg'
 import Logo2 from '../assets/Hero/svgNoFondoLogo3.png'
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css'
 
 const Hero = () => {
   return (
@@ -18,8 +20,8 @@ const Hero = () => {
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <h6 class="text-white mb-4">BIENVENIDOS A</h6>
-                        <img className='logobanner1' src={Logo1} alt="Logo Banner La Capital"/>
-                        <img className='logobanner2' src={Logo2} alt="Logo Banner La Capital"/>
+                        <LazyLoadImage effect="blur" className='logobanner1' src={Logo1} alt="Logo Banner La Capital"/>
+                        <LazyLoadImage effect="blur" className='logobanner2' src={Logo2} alt="Logo Banner La Capital"/>
                     </div>
                 </div>
             </div>
@@ -30,8 +32,8 @@ const Hero = () => {
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <h6 class="text-white mb-4">BIENVENIDOS A</h6>
-                        <img className='logobanner1' src={Logo1} alt="Logo Banner La Capital"/>
-                        <img className='logobanner2' src={Logo2} alt="Logo Banner La Capital"/>
+                        <LazyLoadImage effect="blur" className='logobanner1' src={Logo1} alt="Logo Banner La Capital"/>
+                        <LazyLoadImage effect="blur" className='logobanner2' src={Logo2} alt="Logo Banner La Capital"/>
                     </div>
                 </div>
             </div>
@@ -42,8 +44,8 @@ const Hero = () => {
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <h6 class="text-white mb-4">BIENVENIDOS A</h6>
-                        <img className='logobanner1' src={Logo1} alt="Logo Banner La Capital"/>
-                        <img className='logobanner2' src={Logo2} alt="Logo Banner La Capital"/>
+                        <LazyLoadImage effect="blur" className='logobanner1' src={Logo1} alt="Logo Banner La Capital"/>
+                        <LazyLoadImage effect="blur" className='logobanner2' src={Logo2} alt="Logo Banner La Capital"/>
                     </div>
                 </div>
             </div>

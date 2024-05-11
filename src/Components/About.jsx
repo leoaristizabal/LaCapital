@@ -2,6 +2,8 @@ import React from 'react'
 import AboutImg from '../assets/About/About.svg'
 import Rrss from './Rrss'
 import BannerAbout from './BannerAbout'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 
 const About = () => {
     return (
@@ -9,7 +11,7 @@ const About = () => {
             <div class="container">
                 <div class="row gy-4 align-items-center">
                     <div class="col-lg-5">
-                        <img className="img_about" src={AboutImg} alt="" />
+                        <LazyLoadImage effect='blur' className="img_about" src={AboutImg} alt="" />
                     </div>
                     <div class="col-lg-5">
                         <h1>Nuestra Historia</h1>
