@@ -39,3 +39,40 @@ function App() {
 }
 
 export default App
+
+{/*/BANNER
+
+MAMUT=> Bistec 
+PULPA CORTE => Bistec de Primera
+Redondo=> Molida Magra
+Lagarto => Molida
+OSOBUCO=> Guisar
+cuadrado => Mechar
+MAMUT=> Milanesa de ternera
+HAMBURGUESAS => BUSCAR 
+LAgarto => lagarto
+Lagarto con hueso => OSOBUCO
+solomo de cuertio => CHuleotn
+lomito => lagarto
+muchacho redondo=> rolo
+punta=> pulpa negra 
+
+POR AGREGAR:
+POLLO:
+Chupetas de Pollo 6.50
+.Alitas Marinadas 5,90 (LISTO)
+
+CARNE:
+CHURRASCO 10.90/kg
+CHURRASCO MARINADOS 12.9/kg
+
+BEST SELLER:
+Hamburguesa Ahumada *
+Chuleta AHumada *
+Alitas Marinadas 5,90 *
+Pechuga*
+Churrasco
+Bistec de Primera*
+Chorizo Criollo*
+Pollo Entero*
+*/}

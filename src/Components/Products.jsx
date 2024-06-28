@@ -34,9 +34,39 @@ import ChorizoFresco from "../assets/Products/Embutidos/chorizofresco.svg"
 import ChorizoParrillero from "../assets/Products/Embutidos/chorizoparrillero.svg"
 import Morcilla from "../assets/Products/Embutidos/morcilla.svg"
 
+//CARNE
+import Chuleton from "../assets/Products/Carne/Chuleton.svg";
+import Cuadrado from "../assets/Products/Carne/Cuadrado.svg";
+import Lagarto from "../assets/Products/Carne/Lagarto.svg";
+import Mamut from "../assets/Products/Carne/Mamut.svg";
+import OSOBUCO from "../assets/Products/Carne/OSOBUCO.svg";
+import PULPACORTE from "../assets/Products/Carne/PULPACORTE.svg";
+import PulpaNegra from "../assets/Products/Carne/PulpaNegra.svg";
+import Redondo from "../assets/Products/Carne/Redondo.svg";
+import Rolo from "../assets/Products/Carne/Rolo.svg";
+import HAMBURGUESA from "../assets/Products/Carne/HAMBURGUESA.svg";
 
+//VIVERES Y CONGELADOS
+import Viveres1 from "../assets/Products/ViveresCongelados/VIVERES1.png"
+import Viveres2 from "../assets/Products/ViveresCongelados/VIVERES2.png"
+import Congelados from "../assets/Products/ViveresCongelados/CONGELADOS.png"
 
-
+/*
+MAMUT=> Bistec 
+PULPA CORTE => Bistec de Primera
+Redondo=> Molida Magra
+Lagarto => Molida
+OSOBUCO=> Guisar
+cuadrado => Mechar
+MAMUT=> Milanesa de ternera
+HAMBURGUESAS => BUSCAR 
+LAgarto => lagarto
+Lagarto con hueso => OSOBUCO
+solomo de cuertio => CHuleotn
+lomito => lagarto
+muchacho redondo=> rolo
+punta=> pulpa negra 
+*/
 
 const Products = () => {
   return (
@@ -70,7 +100,7 @@ const Products = () => {
               aria-controls="pills-all"
               aria-selected="true"
             >
-              Los Más Vendidos
+              Lo Más Vendido
             </button>
           </li>
 
@@ -157,7 +187,7 @@ const Products = () => {
               aria-controls="pills-viveres"
               aria-selected="true"
             >
-              Viveres Varios
+              Viveres - Congelados
             </button>
           </li>
         </ul>
@@ -174,24 +204,25 @@ const Products = () => {
 
             {/*POLLOS */}
             <div class="row gy-4">
-              <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={Entero} alt="" />
+                  <LazyLoadImage effect='blur' src={PULPACORTE} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (4.4)</span>
+                      <span>BestSeller  </span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Pollo Entero</a>
+                      <a href="#">Bistec de Primera</a>
                     </h5>
-                    <h6 className="tagprice">4,90 €/Kg</h6>
+
+                    <h6 className="tagprice">14,90 €/Kg</h6>
                   </div>
                 </div>
               </div>
@@ -201,13 +232,13 @@ const Products = () => {
                   <LazyLoadImage effect='blur' src={ChuletaAhumada} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (4.5)</span>
+                      <span>BestSeller  </span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
@@ -219,28 +250,7 @@ const Products = () => {
 
               </div>
 
-              <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={Pernil} alt="" />
-                  <div class="menu-item-content p-4">
-                    <div>
-                      <span>Rated (5.4)</span>
-                      <span class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </span>
-                    </div>
-                    <h5 class="mt-1 mb-2">
-                      <a href="#">Pernil (Encargo)</a>
-                    </h5>
-
-                    <h6 className="tagprice">6,47€/Kg</h6>
-                  </div>
-                </div>
-              </div>
+              
 
 
               {/**EMbutidos (MAS VENDIDOS) */}
@@ -249,13 +259,13 @@ const Products = () => {
                   <LazyLoadImage effect='blur' src={ChorizoCriollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (4.4)</span>
+                      <span>BestSeller  </span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
@@ -271,13 +281,13 @@ const Products = () => {
                   <LazyLoadImage effect='blur' src={Pechuga} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (5.4)</span>
+                      <span>BestSeller  </span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
@@ -288,28 +298,97 @@ const Products = () => {
                   </div>
                 </div>
               </div>
+
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={Milanesa} alt="" />
+                  <LazyLoadImage effect='blur' src={Entero} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (4.8)</span>
+                      <span>BestSeller  </span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Milanesa</a>
+                      <a href="#">Pollo Entero</a>
                     </h5>
 
-                    <h6 className="tagprice">8,90 €/Kg</h6>
+                    <h6 className="tagprice">4,90 €/Kg</h6>
                   </div>
                 </div>
               </div>
+
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-black shadow-on-hover">
+                  <LazyLoadImage effect='blur' src={HAMBURGUESA} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>BestSeller  </span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Hamburguesa Ahumada</a>
+                    </h5>
+                    <h6 className="tagprice">2,00 U/€</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-black shadow-on-hover">
+                  <LazyLoadImage effect='blur' src={Alitas} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>BestSeller  </span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Alitas Marinadas</a>
+                    </h5>
+
+                    <h6 className="tagprice">5,90 €/KG</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-black shadow-on-hover">
+                  <LazyLoadImage effect='blur' src={PULPACORTE} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>BestSeller  </span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Churrasco Marinado</a>
+                    </h5>
+
+                    <h6 className="tagprice">12,90 €/Kg</h6>
+                  </div>
+                </div>
+              </div>              
 
               
             </div>
@@ -326,9 +405,31 @@ const Products = () => {
             tabindex="0"
           >
             <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-black shadow-on-hover">
+                  <LazyLoadImage effect='blur' src={PULPACORTE} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>BestSeller  </span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Churrasco Marinado</a>
+                    </h5>
+
+                    <h6 className="tagprice">12,90 €/Kg</h6>
+                  </div>
+                </div>
+              </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba} alt="" />
+                  <LazyLoadImage effect='blur' src={Mamut} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -350,16 +451,16 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba2} alt="" />
+                  <LazyLoadImage effect='blur' src={PULPACORTE} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (4.9)</span>
+                      <span>BestSeller  </span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
@@ -372,7 +473,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba} alt="" />
+                  <LazyLoadImage effect='blur' src={Lagarto} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -394,7 +495,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba2} alt="" />
+                  <LazyLoadImage effect='blur' src={Redondo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.5)</span>
@@ -416,7 +517,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba} alt="" />
+                  <LazyLoadImage effect='blur' src={Cuadrado} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.8)</span>
@@ -438,7 +539,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba2} alt="" />
+                  <LazyLoadImage effect='blur' src={OSOBUCO} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.9)</span>
@@ -460,7 +561,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba} alt="" />
+                  <LazyLoadImage effect='blur' src={Mamut} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -481,7 +582,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba2} alt="" />
+                  <LazyLoadImage effect='blur' src={HAMBURGUESA} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.8)</span>
@@ -494,15 +595,79 @@ const Products = () => {
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Hamburguesa</a>
+                      <a href="#">Hamburguesa 150gr</a>
                     </h5>
-                    <h6 className="tagprice">2,25 €</h6>
+                    <h6 className="tagprice">1,60 U/€</h6>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba} alt="" />
+                  <LazyLoadImage effect='blur' src={PULPACORTE} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (4.9)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Churrasco</a>
+                    </h5>
+
+                    <h6 className="tagprice">10,90 €/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-black shadow-on-hover">
+                  <LazyLoadImage effect='blur' src={HAMBURGUESA} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>Rated (4.8)</span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Hamburguesa de Queso</a>
+                    </h5>
+                    <h6 className="tagprice">2,00 U/€</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-black shadow-on-hover">
+                  <LazyLoadImage effect='blur' src={HAMBURGUESA} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>BestSeller  </span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Hamburguesa Ahumada</a>
+                    </h5>
+                    <h6 className="tagprice">2,00 U/€</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-black shadow-on-hover">
+                  <LazyLoadImage effect='blur' src={OSOBUCO} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -524,7 +689,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba2} alt="" />
+                  <LazyLoadImage effect='blur' src={Lagarto} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -546,7 +711,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba} alt="" />
+                  <LazyLoadImage effect='blur' src={Lagarto} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.0)</span>
@@ -568,7 +733,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba2} alt="" />
+                  <LazyLoadImage effect='blur' src={Chuleton} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (5.0)</span>
@@ -590,7 +755,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba} alt="" />
+                  <LazyLoadImage effect='blur' src={Rolo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -612,7 +777,7 @@ const Products = () => {
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={ImagenPrueba2} alt="" />
+                  <LazyLoadImage effect='blur' src={PulpaNegra} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
                       <span>Rated (4.4)</span>
@@ -643,18 +808,40 @@ const Products = () => {
             tabindex="0"
           >
             <div class="row gy-4">
-              <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <LazyLoadImage effect='blur' src={Entero} alt="" />
+                  <LazyLoadImage effect='blur' src={Alitas} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (4.4)</span>
+                      <span>BestSeller  </span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Alitas Marinadas</a>
+                    </h5>
+
+                    <h6 className="tagprice">5,90 €/KG</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-black shadow-on-hover">
+                  <LazyLoadImage effect='blur' src={Entero} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>BestSeller  </span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
@@ -736,6 +923,27 @@ const Products = () => {
                   <LazyLoadImage effect='blur' src={Pechuga} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
+                      <span>BestSeller  </span>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Pechuga</a>
+                    </h5>
+                    <h6 className="tagprice">8,90 €/Kg</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-black shadow-on-hover">
+                  <LazyLoadImage effect='blur' src={Alitas} alt="" />
+                  <div class="menu-item-content p-4">
+                    <div>
                       <span>Rated (5.4)</span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
@@ -745,10 +953,12 @@ const Products = () => {
                         <i class="fa-solid fa-star-half-stroke"></i>
                       </span>
                     </div>
+
                     <h5 class="mt-1 mb-2">
-                      <a href="#">Pechuga</a>
+                      Chupetas de Pollo
                     </h5>
-                    <h6 className="tagprice">8,90 €/Kg</h6>
+                    <h6 className="tagprice">6,50 €/Kg</h6>
+
                   </div>
                 </div>
               </div>
@@ -797,6 +1007,7 @@ const Products = () => {
                   </div>
                 </div>
               </div>
+              
 
             </div>
           </div>
@@ -858,13 +1069,13 @@ const Products = () => {
                   <LazyLoadImage effect='blur' src={ChuletaAhumada} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (4.5)</span>
+                      <span>BestSeller  </span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
@@ -1023,13 +1234,13 @@ const Products = () => {
                   <LazyLoadImage effect='blur' src={ChorizoCriollo} alt="" />
                   <div class="menu-item-content p-4">
                     <div>
-                      <span>Rated (4.4)</span>
+                      <span>BestSeller  </span>
                       <span class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
                       </span>
                     </div>
                     <h5 class="mt-1 mb-2">
@@ -1325,93 +1536,28 @@ const Products = () => {
             aria-labelledby="pills-viveres-tab"
             tabindex="0"
           >
-            <div class="row gy-4">
-              <div class="col-lg-3 col-sm-6">
+            <div class="row gy-4 justify-content-center">
+            <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <img src="./assets/images/item_4.jpg" alt="" />
-                  <div class="menu-item-content p-4">
-                    <div>
-                      <span>Rated (5.4)</span>
-                      <span class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </span>
-                    </div>
-                    <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
-                    </h5>
-
-                  </div>
+                  <LazyLoadImage effect='blur' src={Viveres1} alt="" />
+                  
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <img src="./assets/images/item_3.jpg" alt="" />
-                  <div class="menu-item-content p-4">
-                    <div>
-                      <span>Rated (5.4)</span>
-                      <span class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </span>
-                    </div>
-                    <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
-                    </h5>
-
-                  </div>
+                  <LazyLoadImage effect='blur' src={Viveres2} alt="" />
+                  
                 </div>
               </div>
               <div class="col-lg-3 col-sm-6">
                 <div class="menu-item bg-black shadow-on-hover">
-                  <img src="./assets/images/item_2.jpg" alt="" />
-                  <div class="menu-item-content p-4">
-                    <div>
-                      <span>Rated (5.4)</span>
-                      <span class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </span>
-                    </div>
-                    <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
-                    </h5>
-
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-sm-6">
-                <div class="menu-item bg-black shadow-on-hover">
-                  <img src="./assets/images/item_1.jpg" alt="" />
-                  <div class="menu-item-content p-4">
-                    <div>
-                      <span>Rated (5.4)</span>
-                      <span class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      </span>
-                    </div>
-                    <h5 class="mt-1 mb-2">
-                      <a href="#">Smash Cheese Burger</a>
-                    </h5>
-
-                  </div>
+                  <LazyLoadImage effect='blur' src={Congelados} alt="" />
+                  
                 </div>
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </section>

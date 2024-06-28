@@ -122,6 +122,11 @@ section {
     ;
 }
 
+.pruebaLista{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
 /*SliderHero*/
 
 .logobanner1 {
