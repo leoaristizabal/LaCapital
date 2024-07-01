@@ -45,9 +45,9 @@ const Navbar = () => {
                 Productos
               </a>
             </li>
-            <li className={`nav-item ${activeTab === 'Pedidos' ? 'active' : ''}`}>
-              <a className="nav-link" href="#reservation" onClick={() => handleSetActiveTab('Pedidos')}>
-                Pedidos
+            <li className={`nav-item ${activeTab === 'Contacto' ? 'active' : ''}`}>
+              <a className="nav-link" href="#reservation" onClick={() => handleSetActiveTab('Contacto')}>
+                Contacto
               </a>
             </li>
             <li className={`nav-item ${activeTab === 'Recetas' ? 'active' : ''}`}>
