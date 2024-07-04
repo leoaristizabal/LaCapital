@@ -33,7 +33,7 @@ function App() {
      <Blog/>
      <Footer/>
      <Scrollup/>
-     <FloatingWhatsApp accountName='La Capital Carniceria' phoneNumber='34640998748' avatar={AvatarWa} statusMessage='Online' chatMessage='Hola! Bienvenido a La Capital Carniceria ¿Cómo podemos ayudarte?' placeholder='Mensaje' messageDelay={1} />
+     <FloatingWhatsApp accountName='La Capital Carniceria' phoneNumber='34640998748' avatar={AvatarWa} statusMessage='Online' chatMessage='Hola! Bienvenido a La Capital Carniceria ¿Cómo podemos ayudarte?' placeholder='Mensaje' messageDelay={1}  />
     </>
   )
 }
