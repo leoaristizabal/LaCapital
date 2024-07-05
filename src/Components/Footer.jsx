@@ -24,14 +24,18 @@ const Footer = () => {
                         <a href="mailto:pedidos@lacapitalcarniceria.com" class="footer-link22 mb-1"><i class="fa fa-envelope" aria-hidden="true"></i>  pedidos@lacapitalcarniceria.com</a>
                         <p class="footer-link2 mb-1"><a class="footer-link" href="https://www.instagram.com/lacapitalcarniceria/"><i class="fa-brands fa-instagram"></i> LaCapitalCarniceria</a></p>
                         <p class="mb-0">Barcelona, España.</p>
+                        
                     </div>
+                    
                     <div class="col-lg-3">
                         <h6 class="text-white mt-3 mb-2">HORARIO</h6>
                         <p class="mb-1">Lunes: 9:00am - 4:00pm</p>
                         <p class="mb-1">Martes - Viernes: 9:00am - 2:00pm / 5:00pm - 9:00pm</p>
                         <p class="mb-1">Sábados: 9:00am - 4:00pm</p>
                         <p>Domingo : Cerrado</p>
+                        <p class="mt-4"><a class="footer-link" href="/PrivacyPolicyLaCapital.pdf">POLÍTICAS DE PRIVACIDAD</a></p>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -40,6 +44,7 @@ const Footer = () => {
                 <div class="row gy-3 justify-content-between">
                     <div class="col-auto">
                         <p class="mb-0">Copyright  2024 © Designed by <a class="footer-link" href="https://avocodesign.vercel.app/">AvocoDesign.</a> </p>
+                        
                     </div>
                 </div>
             </div>

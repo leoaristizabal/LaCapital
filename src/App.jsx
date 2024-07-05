@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.css'; // Importa los estilos de Font Awesome
 import Navbar from './Components/Navbar';
@@ -19,8 +19,23 @@ import Footer from './Components/Footer';
 import Scrollup from './Components/Scrollup';
 
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
+
 
 function App() {
+  const [showPopup, setShowPopup] = useState(true);
+
+  const handleAccept = () => {
+    setShowPopup(false);
+    
+    localStorage.setItem('privacyAccepted', 'true');
+  };
+
+  const handleReject = () => {
+    setShowPopup(false);
+    // la lógica para manejar la rejección del usuario, por ejemplo redirigirlo fuera del sitio
+    window.location.href = 'https://www.google.com';
+  };
   return (
     <>
      <Navbar/>
@@ -34,45 +49,9 @@ function App() {
      <Footer/>
      <Scrollup/>
      <FloatingWhatsApp accountName='La Capital Carniceria' phoneNumber='34640998748' avatar={AvatarWa} statusMessage='Online' chatMessage='Hola! Bienvenido a La Capital Carniceria ¿Cómo podemos ayudarte?' placeholder='Mensaje' messageDelay={1}  />
+    {showPopup && <PrivacyPolicy onAccept={handleAccept} onReject={handleReject} />}
     </>
-  )
+  );
 }
 
 export default App
-
-{/*/BANNER
-
-MAMUT=> Bistec 
-PULPA CORTE => Bistec de Primera
-Redondo=> Molida Magra
-Lagarto => Molida
-OSOBUCO=> Guisar
-cuadrado => Mechar
-MAMUT=> Milanesa de ternera
-HAMBURGUESAS => BUSCAR 
-LAgarto => lagarto
-Lagarto con hueso => OSOBUCO
-solomo de cuertio => CHuleotn
-lomito => lagarto
-muchacho redondo=> rolo
-punta=> pulpa negra 
-
-POR AGREGAR:
-POLLO:
-Chupetas de Pollo 6.50
-.Alitas Marinadas 5,90 (LISTO)
-
-CARNE:
-CHURRASCO 10.90/kg
-CHURRASCO MARINADOS 12.9/kg
-
-BEST SELLER:
-Hamburguesa Ahumada *
-Chuleta AHumada *
-Alitas Marinadas 5,90 *
-Pechuga*
-Churrasco
-Bistec de Primera*
-Chorizo Criollo*
-Pollo Entero*
-*/}
